@@ -1,0 +1,79 @@
+body{
+    /* background-image: url(images/large\ voting\ website\ background.jpg); */
+    background-repeat: no-repeat;
+}
+
+div#mainDiv{
+    border: black solid 10px;
+    margin: auto;
+    background-color: white;
+    opacity: 100%;
+    border-radius: 15px;
+    text-align: center;
+    height: 95vh;
+    width: 85vw;
+    position: relative;
+}
+
+/* div#secondDiv{
+    opacity: 100%;
+} */
+
+h1{
+    font-family: 'Londrina Solid', cursive;
+    font-size: 60px;
+    margin: auto;
+    text-align: center;
+    /* color: blue; */
+}
+
+p#text{
+    font-size: 50px;
+    width: auto;
+    height: auto;
+    /* position: relative;
+    animation-name: moveButton;
+    animation-duration: 10s; */
+}
+
+input{
+    height: 50px;
+    width: 120px;
+    text-align: center;
+    background-color: wheat;
+    border-radius: 15px;
+    outline: none;
+    justify-content: center;
+}
+/* input#mcgovern{
+
+} */
+
+/* @keyframes moveButton {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:200px;}
+  } */
+
+/* html{
+
+} */
+/* 
+#nixon{
+    position: absolute;
+} */
+
+img{
+    background-image: url(images/smallFlag.png);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 70px;
+    height: 40px;
+
+    transition: all .5s;
+}
